@@ -6,7 +6,7 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('spring-boot-job') {
     definition {
         cpsScm {
             scm {
