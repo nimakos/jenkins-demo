@@ -1,2 +1,2 @@
 # jenkins-demo
-Jenkins Demo
+Jenkins demo
