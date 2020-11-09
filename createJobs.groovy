@@ -1,14 +1,8 @@
-pipelineJob('theme-park-job') {
+pipelineJob('pipelineJob') {
     definition {
-        cpsScm {
-            scm {
-                git {
-                    remote {
-                        url 'https://github.com/nimakos/SpringBootMVC.git'
-                    }
-                    branch 'master'
-                }
-            }
+        cps {
+            script(readFileFromWorkspace('pipelineJob.groovy'))
+            sandbox()
         }
     }
 }
