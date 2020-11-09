@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5c1e3e-3aaf-4446-a277-043badeeca2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/seedJob.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seedJob.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa5c1e3e-3aaf-4446-a277-043badeeca2c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
