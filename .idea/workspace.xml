@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa5c1e3e-3aaf-4446-a277-043badeeca2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/createJobs.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/createJobs.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +50,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604941315264">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604955377550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.-109.1920.1160@0.0.1920.1040" timestamp="1604941315264" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.-109.1920.1160@0.0.1920.1040" timestamp="1604955377550" />
   </component>
 </project>
