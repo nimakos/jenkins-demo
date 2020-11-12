@@ -13,9 +13,9 @@ pipelineJob('spring-boot-job') {
     definition {
         cpsScm {
             scm {
-                git {///
+                git {
                     remote {
-                        github('nimakos/SpringBootMVC.git', 'ssh')
+                        url 'https://github.com/nimakos/SpringBootMVC.git'
                     }
                     branch 'master'
                 }
