@@ -16,7 +16,6 @@ pipelineJob('spring-boot-job') {
                 git {
                     remote {
                         github('nimakos/SpringBootMVC.git', 'ssh')
-                        credentials('my-credentials')  //not working
                     }
                     branch 'master'
                 }
