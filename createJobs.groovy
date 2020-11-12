@@ -1,3 +1,4 @@
+/*Init job from jenkins*/
 pipelineJob('pipelineJob') {
     definition {
         cps {
@@ -6,13 +7,16 @@ pipelineJob('pipelineJob') {
         }
     }
 }
+
+/*Credentials for the repository we want to work, the job we want to do */
 pipelineJob('spring-boot-job') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/nimakos/SpringBootMVC.git'
+                        github('nimakos/SpringBootMVC.git', 'ssh')
+                        credentials('my-credentials')  //not working
                     }
                     branch 'master'
                 }
