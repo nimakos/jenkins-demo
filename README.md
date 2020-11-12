@@ -2,8 +2,8 @@
 
 init run : 
 
-           ./gradlew docker
-           ./gradlew dockerRun
+           ./gradlew docker ->create docker image 
+           ./gradlew dockerRun ->create docker container
            
 after making some changes : 
                             
