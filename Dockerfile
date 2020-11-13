@@ -9,6 +9,6 @@ COPY seedJob.xml /usr/share/jenkins/ref/jobs/seed-job/config.xml
 # Skip setup wizard (Fill the enviromentall variable)
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
-# Add groovy script to Jenkins hook
+# Add groovy script to Jenkins hook (Add and select Maven Tool)
 COPY addMaven.groovy/ /var/jenkins_home/init.groovy.d/
 
