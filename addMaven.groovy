@@ -1,6 +1,6 @@
 import jenkins.model.*
 
-def mavenVersion = "3.6.3"
+def mavenVersion = "latest"
 println "Adding an auto installer for Maven " + mavenVersion
 
 def mavenPluginExtension = Jenkins.instance.getExtensionList(hudson.tasks.Maven.DescriptorImpl.class)[0]
