@@ -1,11 +1,23 @@
 # jenkins-demo
 
-init run : 
+Init run : 
 
            ./gradlew docker ->create docker image 
            ./gradlew dockerRun ->create docker container
            
-after making some changes : 
+After making some changes : 
                             
                             ./gradlew dockerStop
                             ./gradlew build docker dockerRun
+ 
+ Make Container run automatically after Reboot
+ 
+ 1. Check running container ID
+ docker container ls
+ 
+ 2. If container is already running : 
+ docker update --restart unless-stopped container_id 
+ 
+ 3. If container has not start yet
+ docker run -dit --restart unless-stopped httpd                           
+
