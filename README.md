@@ -18,6 +18,6 @@ After making some changes :
  2. If container is already running : 
  docker update --restart unless-stopped container_id 
  
- 3. If container has not start yet
+ 3. If container has not been started yet
  docker run -dit --restart unless-stopped httpd                           
 
