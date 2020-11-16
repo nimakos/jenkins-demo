@@ -1,5 +1,7 @@
 # jenkins-demo
 
+--Supports Gradle and Maven build Tool
+
 Init run : 
 
            ./gradlew docker ->create docker image 
