@@ -12,7 +12,7 @@ After making some changes :
                             ./gradlew dockerStop
                             ./gradlew build docker dockerRun
  
- Make Container run automatically after Reboot
+Make Container run automatically after Reboot
  
  1. Check running container ID
  docker container ls
@@ -21,5 +21,10 @@ After making some changes :
  docker update --restart unless-stopped container_id 
  
  3. If container has not been started yet
- docker run -dit --restart unless-stopped httpd                           
+ docker run -dit --restart unless-stopped httpd   
+    
+Configure Jenkins environment  
 
+1. run on a browser http://localhost:8080/
+2. configure git and docker global credentials 
+3. run seed-job

@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.249.3-jdk11
+FROM jenkins/jenkins:2.263.4-jdk11
 
 #Installing Docker in Jenkins (Docker in Docker)
 USER root
