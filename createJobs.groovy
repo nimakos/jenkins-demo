@@ -24,7 +24,6 @@ pipelineJob('spring-boot-job') {
     }
 }
 
-/*
 pipelineJob('spring-boot-job_onthefly') {
     definition {
         cpsScm {
@@ -38,4 +37,4 @@ pipelineJob('spring-boot-job_onthefly') {
             }
         }
     }
-}*/
+}
