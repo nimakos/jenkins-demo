@@ -2,15 +2,18 @@
 
 --Supports Gradle and Maven build Tool
 
-Init run : 
-
+Init run :
+           
+           ./gradlew build
            ./gradlew docker ->create docker image 
            ./gradlew dockerRun ->create docker container
            
 After making some changes : 
                             
                             ./gradlew dockerStop
-                            ./gradlew build docker dockerRun
+                            ./gradlew build
+                            ./gradlew docker 
+                            ./gradlew dockerRun
  
 Make Container run automatically after Reboot
  
