@@ -9,7 +9,7 @@ pipelineJob('pipelineJob') {
 }
 
 /*Credentials for the repository we want to work, the job we want to do */
-pipelineJob('spring-boot-job') {
+pipelineJob('jenkins_onthefly_sql') {
     definition {
         cpsScm {
             scm {
