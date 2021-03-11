@@ -17,4 +17,3 @@ ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
 # Add groovy script to Jenkins hook (Add and select Maven Tool)
 COPY addMaven.groovy/ /var/jenkins_home/init.groovy.d/
-
