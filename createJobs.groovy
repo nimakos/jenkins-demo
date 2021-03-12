@@ -24,7 +24,7 @@ pipelineJob('spring-boot-job') {
     }
 }
 
-pipelineJob('spring-boot-job_onthefly') {
+pipelineJob('spring-boot-job-test') {
     definition {
         cpsScm {
             scm {
@@ -32,7 +32,7 @@ pipelineJob('spring-boot-job_onthefly') {
                     remote {
                         url 'https://github.com/nimakos/SpringBootMVC.git'
                     }
-                    branch 'jenkins_onthefly_sql'
+                    branch 'test_branch'
                 }
             }
         }
